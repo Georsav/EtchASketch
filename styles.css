@@ -1,0 +1,62 @@
+body {
+    background-color: #a7adb8;
+}
+
+.bodyDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.sliderContainer{
+    margin: auto;
+    height: 120px;
+    width: 250px;
+    border: 4px solid red;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 10px;
+}
+
+#slider {
+    width: 220px;
+}
+
+#sliderValue {
+    font-size: 2em;
+    font-weight:bolder;
+}
+
+#sketchContainer {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: brown;
+    margin-bottom: 40px;
+}
+
+.pxlitem {
+    border: 1px solid black;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+.newpxl {
+    background-color: black;
+}
+
+.clearBtn {
+    background-color: red;
+    width: 200px;
+    height: 80px;
+    font-size: 2em;
+    font-weight:bolder;
+    margin:auto;
+}
