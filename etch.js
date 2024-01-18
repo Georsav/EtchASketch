@@ -50,6 +50,12 @@ slider.oninput = function() {
     bodyDiv.appendChild(clearBtn);
     clearBtn.className += "clearBtn"; 
     clearBtn.innerHTML = "Clear";
+
+    clearBtn.addEventListener("click", () => {
+        for (let q = 0; q < pxls.length; q++) {
+            pxls[q].classList.remove("newpxl");
+        }
+    });
 }
 
 
